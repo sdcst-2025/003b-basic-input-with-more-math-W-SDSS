@@ -1,5 +1,5 @@
 ## SDSS Computing Studies Python Assignment
-### Assignment #3b MOre Input() (Total Marks 10)
+### Assignment #3b More Input() (Total Marks 10)
 
 Objectives:
 * Use the input() function to retrieve information from the keyboard
