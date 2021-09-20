@@ -54,7 +54,7 @@ example:
 Enter your amount: 100
 Enter the rate: 2.5
 Enter the # of days in the month: 30
-You earned $0.20 interest. 
+You earned $0.2 interest. 
 (2 points) 
 
 ##### Task 2
