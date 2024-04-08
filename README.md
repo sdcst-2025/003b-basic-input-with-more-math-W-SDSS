@@ -58,15 +58,19 @@ You earned $0.2 interest.
 (2 points) 
 
 ##### Task 2
-A population can be modeled by the following:
-future population = (current population)*(1+r)^(time in years) 
-Have the user enter the current population, the rate of growth as a decimal and the number of DAYS.
-Calculate the expected future population
+Assignment: Exchange rate
+The current exchange rate is 1.25 CAD per 1 USD
+Create a program that asks the user for the number of Canadian Dollars they have
+and then have the program display how many USD that is equivalent to:
+You may need to use rounding or decimal formatting
 
-Enter the population: 25000000
-Enter the rate of growth in percent: 2.1
-Enter the number of days: 12
-There will be 25017087 people after 12 days
+
+example
+How many Canadian Dollars do you have? 10
+That is worth $8.00 USD
+
+How many Canadian Dollars do you have? 1.25
+That is worth $1.00 USD
 
 ##### Task 3
 When shopping, we pay 12% combined GST and PST on many items.  Write a program that asks the user to enter in the prices of 5 items that they are buying.  Find the total price, the amount of tax and the overall price.  Taxes are rounded appropriately
@@ -85,3 +89,14 @@ Make a Mad Lib
 Ask the user to enter a number of words, one for each of the underscored words in the following paragraph.  Once they have finished, display the following story to them with the replacements made in the Mad Lib
 
 Today we picked apple from _PERSON_'s Orchard. I had no idea there were so many different varieties of apples. I ate _ADJECTIVE_ apples straight off the tree that tasted like _FOOD_. Then there was a _ADJECTIVE_ apple that looked like a _NOUN_.  When our bag was full, we went on a free hay ride to _PLACE_ and back. It ended at a hay pile where we got to _VERB_ _ADVERB_. I can hardly wait to get home and cook with the apples. We are going to make apple _FOOD_ and _THINGS_ pies!.
+
+##### Task 5
+A population can be modeled by the following:
+future population = (current population)*(1+r)^(time in years) 
+Have the user enter the current population, the rate of growth as a decimal and the number of DAYS.
+Calculate the expected future population
+
+Enter the population: 25000000
+Enter the rate of growth in percent: 2.1
+Enter the number of days: 12
+There will be 25017087 people after 12 days
