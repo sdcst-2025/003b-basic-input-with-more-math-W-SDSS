@@ -14,3 +14,12 @@ That is worth $8.00 USD
 How many Canadian Dollars do you have? 1.25
 That is worth $1.00 USD
 """
+
+canada = float(input("How many canadian Dollars do you have?"))
+
+import math
+
+america = canada/1.25
+america = round(america, 3)
+
+print(f"This is worth ${america} USD")
