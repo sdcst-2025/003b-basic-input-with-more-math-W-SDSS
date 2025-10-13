@@ -17,10 +17,14 @@ You earned $0.2 interest.
 
 amount = float(input("Enter your amount: "))
 rate = float(input("Enter your rate: "))
-day = float(input("Enter your # of days in the month: "))
+day = int(input("Enter your # of days in the month: "))
 
 import math
 
-interest = math.floor(amount*rate/100*day)
+rate = rate/100
+
+interest = amount*rate*day/365
+
+interest = round(interest, 2)
 
 print(f"You earned ${interest} interest.")
