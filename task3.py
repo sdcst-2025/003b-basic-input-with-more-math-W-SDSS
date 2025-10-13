@@ -14,18 +14,20 @@ Your subtotal is $63.71 and your taxes total $7.65 for a total of $71.36
 
 """
 
-first = float(input("Enter the first price: "))
-second = float(input("Enter the second price: "))
-third = float(input("Enter the third price: "))
-fourth = float(input("Enter the fourth price: "))
-fifth = float(input("Enter the fifth price: "))
+1 = float(input("Enter the first price: "))
+2 = float(input("Enter the second price: "))
+3 = float(input("Enter the third price: "))
+4 = float(input("Enter the fourth price: "))
+5 = float(input("Enter the fifth price: "))
 
 import math
 
-subtotal = first+second+third+fourth+fifth
-subtotal = round(subtotal, 2)
+subtotal = 1+2+3+4+5
 tax = subtotal*0.12
-tax = round(tax, 2)
 total = subtotal+tax
+
+subtotal = round(subtotal, 2)
+tax = round(tax, 2)
+total = round(total, 2)
 
 print(f"Your subtotal is ${subtotal} and your taxes total ${tax} for a total of ${total}")
