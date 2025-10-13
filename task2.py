@@ -20,6 +20,6 @@ canada = float(input("How many canadian Dollars do you have?"))
 import math
 
 america = canada/1.25
-america = round(america, 3)
+america = round(america, 2)
 
 print(f"This is worth ${america} USD")
