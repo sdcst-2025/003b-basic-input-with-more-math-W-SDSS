@@ -16,7 +16,10 @@ day = int(input("Enter the number of days: "))
 
 import math
 
+r = r/100
 year = day/365
 futurepopulation = currentpopulation*(1+r)**year
+
+futurepopulation = int(round(futurepopulation,0))
 
 print(f"There will be {futurepopulation} people after {day} days.")

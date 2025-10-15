@@ -14,15 +14,15 @@ Your subtotal is $63.71 and your taxes total $7.65 for a total of $71.36
 
 """
 
-1 = float(input("Enter the first price: "))
-2 = float(input("Enter the second price: "))
-3 = float(input("Enter the third price: "))
-4 = float(input("Enter the fourth price: "))
-5 = float(input("Enter the fifth price: "))
+first = float(input("Enter the first price: "))
+second= float(input("Enter the second price: "))
+third = float(input("Enter the third price: "))
+fourth = float(input("Enter the fourth price: "))
+fifth = float(input("Enter the fifth price: "))
 
 import math
 
-subtotal = 1+2+3+4+5
+subtotal = first+second+third+fourth+fifth
 tax = subtotal*0.12
 total = subtotal+tax
 

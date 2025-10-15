@@ -25,6 +25,6 @@ rate = rate/100
 
 interest = amount*rate*day/365
 
-interest = round(interest, 2)
+interest = round(interest, 1)
 
 print(f"You earned ${interest} interest.")
